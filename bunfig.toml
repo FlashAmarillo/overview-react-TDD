@@ -1,0 +1,13 @@
+[install]
+peer = true
+
+[test]
+coverage = true
+
+[debug]
+hot = true
+
+[build]
+target = "browser"
+entrypoints = ["./src/main.tsx"]
+outdir = "./dist" 
